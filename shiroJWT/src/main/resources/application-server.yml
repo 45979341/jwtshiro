@@ -1,0 +1,12 @@
+logging:
+  file: D:\log\shirojwtlog
+server:
+  port: 8888
+  tomcat:
+    # 最大连接数
+    max-connections: 200
+    max-threads: 1024
+  #设置连接时间
+  connection-timeout: 40000
+  session:
+    timeout: 7200
